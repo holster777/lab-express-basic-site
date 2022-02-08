@@ -1,0 +1,248 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: black;
+    font-family: monospace;
+    color: white;
+    font-size: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+
+
+/* Font Styling */
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: monospace;
+    text-transform: uppercase;
+    font-size: 1.5em;
+
+}
+
+p {
+    font-size: 1.6em;
+    line-height: 1.3em;
+}
+
+li {
+    list-style: none;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* Navigation Styling */
+
+header {
+
+margin-top: 40px;
+margin-bottom: 40px;
+border-bottom: solid 1px white;
+
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 30%;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+li a {
+
+    color: white;
+    text-align: center;
+    
+}
+
+li a:hover {
+    font-style: italic;
+    color: #fcb900;
+}
+
+.last-nav {
+    padding-right: 0px;
+}
+
+h3:hover {
+    color: #fcb900;
+}
+/* Home Page Styles */
+
+#section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+#section-1 img {
+    width: 500px;
+}
+
+.flex-row {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.section-text {
+    width: 600px;
+}
+
+
+
+.yellow-btn {
+    font-family: monospace;
+    padding: 15px 30px;
+    background-color: #fcb900;
+    color: black;
+    border: solid 1px #fcb900;
+    margin-top: 40px;
+}
+
+.yellow-btn:hover {
+    color: white;
+    border: solid 1px white;
+    background-color: transparent;
+}
+
+/* About Page Styles */
+
+
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.about-section > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.about-section > div > h3 {
+    width: 100%;
+    border-bottom: 1px solid white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+
+.center-div {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.about-section > div > p {
+    text-align: center;
+    margin: 20px 10px;
+}
+
+
+.white-border {
+    border: 1px solid white; 
+}
+
+.yellow-bg:hover {
+    background-color: #fcb900;
+    color: black;
+}
+
+/* Work Styles */
+
+.flex-box {
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+
+#work img {
+    width: 350px;
+}
+
+#work > div > div {
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#work > div > div > h3 {
+    margin-bottom: 10px;
+}
+
+#work h1 {
+    display: inline;
+    border-bottom: 5px solid #fcb900;
+    padding-bottom: 10px;
+}
+
+.top-row {
+    height: 50vh;
+    margin-bottom: 10px;
+}
+
+.bottom-row {
+    height: 50vh;
+}
+
+/* Gallery Styles */
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.gallery > div > img {
+    width: 220px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 10px;
+}
+
+
